@@ -91,8 +91,8 @@ function actualizarTotal() {
     const totalCalculado = productosEnCarrito.reduce((acc,producto)=>acc + (producto.precio * producto.cantidad), 0)
     total.innerHTML= `${totalCalculado}`;
 
-    contenedorCarritoVacio.classList.add("disabled")
-    contenedorCarritoProductos.classList.add("disabled")
-    contenedorCarritoAcciones.classList.add("disabled")
-    contenedorCarritoComprado.classList.remove("disabled")
+    // contenedorCarritoVacio.classList.add("disabled")
+    // contenedorCarritoProductos.classList.add("disabled")
+    // contenedorCarritoAcciones.classList.add("disabled")
+    // contenedorCarritoComprado.classList.remove("disabled")
 }
