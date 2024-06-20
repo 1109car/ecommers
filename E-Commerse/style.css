@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&family=Rubik+Mono+One&display=swap');
 :root{
-    --clr-main:#4b33a8;
+    --clr-main: rgb(120, 165, 165);
     --clr-white:#ececec;
     --clr-gray:#e2e2e2;
     --clr-red:#961818;
